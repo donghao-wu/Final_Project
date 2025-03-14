@@ -178,7 +178,7 @@ server <- function(input, output) {
     if (input$plot_type == "Map View") {
       gg <- ggplot(us_map_data, aes(x = long, y = lat, group = group, fill = Total_Incidents)) +
         geom_polygon(color = "white", size = 0.2) +
-        scale_fill_continuous_sequential(palette = "Heat", na.value = "grey90") +
+        scale_fill_continuous_sequential(palette = "Blues", na.value = "grey90") +
         labs(title = "Crime Rate Across U.S. Regions", fill = "Total Incidents") +
         theme_void() +
         theme(legend.position = "bottom")
