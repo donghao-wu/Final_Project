@@ -1,0 +1,13 @@
+name: Final_Project
+title: Final_Project
+username: luciuswu
+account: luciuswu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14250682
+bundleId: 9946420
+url: https://luciuswu.shinyapps.io/Final_Project/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: crime_rate_map.html|crime_rate_map.png|incomebar.html|incomebar.png

@@ -55,8 +55,8 @@ incident_median <- median(ncvs_p3$total_incident, na.rm = TRUE)
 ncvs_p3 <- ncvs_p3 %>%
   mutate(Risk_Group = ifelse(total_incident > incident_median, "High-Risk Group", "Low-Risk Group"))
 
-risk_colors <- c("Low-Risk Group" = "#3498DB",  # 深蓝色
-                 "High-Risk Group" = "#ff659f") # 深橙色
+risk_colors <- c("Low-Risk Group" = "#3498DB",  
+                 "High-Risk Group" = "#ff659f") 
 
 us_states <- map_data("state")
 
